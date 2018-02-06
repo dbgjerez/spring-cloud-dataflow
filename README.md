@@ -33,3 +33,8 @@ java -jar spring-cloud-dataflow-shell-1.3.0.RELEASE.jar
 ```bash
 app import --uri http://bit.ly/Bacon-RELEASE-stream-applications-rabbit-maven
 ```
+
+# Create a Stream
+```bash
+file --directory=/tmp/files/ --mode=lines | log	
+```
