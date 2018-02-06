@@ -29,6 +29,7 @@ wget https://repo.spring.io/libs-snapshot/org/springframework/cloud/spring-cloud
 java -jar spring-cloud-dataflow-shell-1.3.0.RELEASE.jar
 ```
 
-
+# Import defaults RabbitMQ aplications
+```bash
 app import --uri http://bit.ly/Bacon-RELEASE-stream-applications-rabbit-maven
-
+```
